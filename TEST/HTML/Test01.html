@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tuan02_Bai1a</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0 auto;
+        }
+        #container{
+            margin-top: 30px;
+            width: 900px;
+            border: 2px solid red;
+            padding: 20px;
+        }
+        #header{
+            width: 100%;
+            height: 150px;
+            text-align: center;
+            line-height: 150px;
+        }
+        #header h1{
+            color: #9f2c2d;
+            text-transform: uppercase;
+            font-style: italic;
+            text-shadow: 2px 2px 5px #9f2c2d;
+        }
+        #menu_1{
+            width: 100%;
+            height: 50px;
+            line-height: 50px;
+            border-bottom: 1px solid red;
+            margin-bottom: 20px;
+        }
+        #menu_1 ul{
+            list-style: none;
+            padding: 0;
+            text-align: center;
+        }
+        #menu_1 ul li{
+            display: inline-block;
+            margin: 0 15px;
+        }
+        #section{
+            width: 100%;
+        }
+        #section h1{
+            color: #9f2c2d;
+            background-color: beige;
+            padding: 10px 0;
+            margin-bottom: 10px;
+            border-bottom: 1px solid red;
+        }
+        #section ul{
+            list-style: none;
+            padding: 0;
+        }
+        #section ul li{
+            margin-bottom: 10px;
+        }
+        #section .c1{
+            color: red;
+            text-transform: uppercase;
+            display: block;
+            margin-top: 20px;
+        }
+        #section #Honey{
+            color: rgb(244, 205, 157);
+            text-transform: uppercase;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="header">
+            <h1>Example Cafe Menu</h1>
+        </div>
+        <div id="menu_1">
+            <ul>
+                <li><a href="#Starters">Starters</a></li>
+                <li><a href="#Main-courses">Main Courses</a></li>
+                <li><a href="#Desserts">Desserts</a></li>
+            </ul>
+        </div>  
+        <div id="section">
+            <h1>Starters</h1>
+            <ul>
+                <li>Chestnut and Mushroom Goujons <a href="">(v)</a></li>
+                <li>Goat Cheese Salad <a href="">(v)</a></li>
+                <li id="Honey">Honey Soy Chicken Kebabs<a href="">(v)</a></li>
+                <li>Seafood Salad</li>
+            </ul>
+            <a href="#" class="c1">Back to top</a>
+
+            <h1>Desserts</h1>
+            <ul>
+                <li>Lemon Sorbet <a href="">(v)</a></li>
+                <li>Chocolate Mud Pie <a href="">(v)</a></li>
+                <li>Pecan Pie <a href="">(v)</a></li>
+                <li>Selection of Cheeses from Around the World<a href="">(v)</a></li>
+            </ul>
+            <a href="#" class="c1">Back to top</a>
+        </div>
+    </div>
+</body>
+</html>
